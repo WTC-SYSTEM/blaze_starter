@@ -29,7 +29,7 @@ dependencies:
   rxdart: 0.28.0
 
   # BLoC
-  flutter_bloc: 8.1.6
+  flutter_bloc: 9.0.0
 
   # Networking
   http: 1.2.2
