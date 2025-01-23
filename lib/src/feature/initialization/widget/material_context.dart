@@ -23,9 +23,9 @@ class MaterialContext extends StatelessWidget {
     final mediaQueryData = MediaQuery.of(context);
 
     final theme = settings.appTheme ?? AppTheme.defaultTheme;
-
     final lightTheme = theme.buildThemeData(Brightness.light);
     final darkTheme = theme.buildThemeData(Brightness.dark);
+
     final themeMode = theme.themeMode;
 
     return MaterialApp(

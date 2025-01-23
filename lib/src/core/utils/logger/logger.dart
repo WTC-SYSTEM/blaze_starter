@@ -332,11 +332,10 @@ class LogMessage {
 /// {@template log_observer}
 /// Observer class, that is notified when a new log message is created
 /// {@endtemplate}
-abstract base class LogObserver {
+mixin class LogObserver {
   /// Constructs an instance of [LogObserver].
   const LogObserver();
 
   /// Called when a new log message is created.
-  // ignore: no-empty-block
   void onLog(LogMessage logMessage) {}
 }

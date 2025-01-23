@@ -5,7 +5,7 @@ import 'package:sizzle_starter/src/core/utils/logger/logger.dart';
 /// {@template printing_log_observer}
 /// [LogObserver] that prints logs using `dart:developer`.
 /// {@endtemplate}
-final class PrintingLogObserver extends LogObserver {
+final class PrintingLogObserver with LogObserver {
   /// {@macro printing_log_observer}
   const PrintingLogObserver({required this.logLevel});
 

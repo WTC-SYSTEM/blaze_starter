@@ -33,7 +33,7 @@ abstract interface class ErrorReporter {
 /// {@template error_reporter_log_observer}
 /// An observer that reports logs to the error reporter if it is active.
 /// {@endtemplate}
-final class ErrorReporterLogObserver extends LogObserver {
+final class ErrorReporterLogObserver with LogObserver {
   /// {@macro error_reporter_log_observer}
   const ErrorReporterLogObserver(this._errorReporter);
 
